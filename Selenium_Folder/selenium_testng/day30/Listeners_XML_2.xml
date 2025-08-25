@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+    <listeners>
+        <listener class-name="com.selenium_testng.day30.IAlterSuiteListener_2"/>
+    </listeners>
+    
+     <test name="Sample Test">
+        <classes>
+            <class name="com.selenium_testng.day30.Listener_Test_Class_2"/>
+            <!-- You can add more test classes here -->
+        </classes>
+    </test>
+</suite>
